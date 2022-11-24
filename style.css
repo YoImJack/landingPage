@@ -89,9 +89,15 @@ img {
 
 .imgRow {
     display:flex;
+    background-color: white;
+    justify-content: center;
+    
 }
 
 
 .imgRow img {
-    border:20px solid blue;
+    border:2px solid blue;
+    border-radius: 7px;
+    margin:25px;
+    width: 100px;
 }
