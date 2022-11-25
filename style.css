@@ -2,6 +2,7 @@ body {
     display:flex;
     flex-direction: column;
     background-color: #1F2937;
+    
 }
 
 
@@ -53,13 +54,14 @@ a {
 
 }
 
-button {
+.topButton {
     background-color:#3882f6;
     width:120px;
     color:white;
     border-radius:8px ;
     height:40px;
     margin-top: 10px;
+
 }
 
 .center {
@@ -99,5 +101,99 @@ img {
     border:2px solid blue;
     border-radius: 7px;
     margin:25px;
+    margin-bottom: 5px;
     width: 100px;
 }
+
+.imgTxt {
+    color:#1f2937;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+
+   
+
+
+}
+
+
+.imgTxt div {
+    max-width: 104px;
+    padding-left: 25px;
+    padding-right:25px;
+    text-align: center;
+    
+}
+
+.quotebox {
+    background-color:#e5e7eb;
+    color:#1F2937;
+    padding:100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+max-width: 600px;
+font-style: italic;
+font-size: 36px;
+display:flex;
+
+}
+
+div .thor {
+margin-left: 400px;
+font-size: 20px;
+font-weight: bolder;
+}
+
+.callWhite {
+    display:flex;
+    background-color: white;
+    padding:200px;
+    justify-content: center;
+}
+
+.callBlue {
+    display:flex;
+    width: 800px;
+    background-color:#3882f6;
+    padding:75px;
+    border-radius: 12px;
+    justify-content: center;
+    font-size: 24px;
+    color:white;
+    gap:100px;
+
+}
+
+.botText {
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.botBut {
+    color:white;
+    align-self: flex-end;
+    justify-self: center;
+    width:120px;
+    height: 40px;
+    background-color:#3882f6;
+    border-radius:8px ;
+    border:3px solid white;
+}
+
+    .bottomContainer {
+        background-color: #1F2937;
+        display:flex;
+        justify-content: center;
+        align-self: center;
+        color:white;
+        padding:25px;
+}
+
+
+
